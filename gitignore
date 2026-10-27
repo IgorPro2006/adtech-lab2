@@ -1,0 +1,20 @@
+# course data must not be committed
+*.parquet
+data/
+.cache/kagglehub/
+kagglehub/
+
+# python / jupyter noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# credentials
+kaggle.json
+.env
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
